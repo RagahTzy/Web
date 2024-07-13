@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+    text-align: center;
+    -webkit-text-stroke: 0.5px white;
+    text-stroke: 0.5px white
+}
+
+p {
+    font-weight: lighter;
+    text-align: justify;
+}
+
+body {
+    background-color: #0F0F10;
+    color: lawngreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divpadding {
+    width: 65%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0 auto;
+}
+
+header {
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 10) 0.1%, rgba(0, 0, 0, 0) 72%);
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 6cm;
+    margin-right: 6cm;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: black ;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(127, 255, 212, 0.2);
+    border-radius: 100%;
+    background: radial-gradient(ellipse at center, rgba(124, 252, 0,70) 0.1%, rgba(0, 0, 0, 0) 71%);
+}
+
+address {
+    text-align: center; color: lawngreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-20px);
+}
+
+footer div ul {
+    display: flex;
+    list-style: none;
+}
+
+footer div ul li {
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+.logo-invert{
+    transition: ease-in-out 0.3s;
+}
+.logo-invert:hover {
+    filter: invert()
+}
+
+.tabeltengah {
+    width: 70%;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.hoverlink{
+    text-decoration: none;
+    transition: ease-in-out .2s;
+    color: rgb(124, 252, 0);
+}
+.hoverlink:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.justify {
+    text-align: justify;
+}
